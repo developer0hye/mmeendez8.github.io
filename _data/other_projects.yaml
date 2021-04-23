@@ -1,4 +1,25 @@
 other_projects:
+  - title: "SKYWAY - The WAY to Integration of Autonomous Aircraft in a Shared SKY"
+    authors: Gradiant & Boeing Research & Technology-Europe
+    description:
+      "The global objective of the Galician SkyWay project, which was completed in September 2020, was to design, prototype and test in representative environments 
+      a set of advanced technological solutions for the most relevant contingencies in the operations of UAS in non-segregated airspace. 
+      Collaborated on solving the problem of loss of separation between aircraft that could increase the risk of collision between them. Developed CNNs models embeddable
+      on Nvidia Jetson boards that can automatically detect other drones and aircraft present in the airspace, based on the information obtained through on-board cameras."
+    news: 
+      - "http://www.boeing.com/global/boeing-in-europe/features/2019/brt-europe-launches-the-galician-skyway-project.page"
+      - "https://www.gradiant.org/noticia/gradiant-galician-skyway-uas/"
+
+  - title: "PRIMARE - Semantic segmentation for crop identification"
+    authors: Gradiant
+    description:
+      "Participated in PRIMARE project, where innovative technological solutions to field inspections linked to EU Common Agricultural Policy (CAP) were implemented. 
+      Gradiant has contributed to this project y developing a video analysis module for semantic segmentation of terrain for crop type identification, and detection
+      of elements of interest for farming auditing. Segmentation and detection are achieved using DNN based approaches on multispectral UAV and satellite imagery. 
+      The module includes basic image geo-registration capabilities using inertial data, which allows  for automatically locating objects of interest on a 3D map as 
+      well as for matching crop types against a database of farm land."
+    news: "https://www.gradiant.org/noticia/primare-video-analitica-y-drones-para-innovar-en-el-campo-gallego/"
+
   - title: "Feature construction and classification on Time Series"
     authors: "Master Thesis - Prof. Bruno Ribero - Purdue University"
     description:
@@ -8,21 +29,21 @@ other_projects:
       <br />Presented in PEGASAS 2017 meeting at Texas A&M University"
     code: "https://github.com/mmeendez8/Pegasas"
 
-  - title: "Instrument recognition using Neural Networks"
-    description:
-      "System for musical instruments recognition using NNs with over 10000 audio samples using Fourier Transform and its harmonics
-      to create the input features. Created our own NN library in Python from scratch."
-    code: "https://github.com/mmeendez8/InstrumentRecognition"
+  # - title: "Instrument recognition using Neural Networks"
+  #   description:
+  #     "System for musical instruments recognition using NNs with over 10000 audio samples using Fourier Transform and its harmonics
+  #     to create the input features. Created our own NN library in Python from scratch."
+  #   code: "https://github.com/mmeendez8/InstrumentRecognition"
 
-  - title: "Corruption simulation in Social Netowrks (Twitter)"
-    description:
-      "Analysis using Twitter publics API where we focus in the relations between politicians in the social network. We performed a
-      Monte Carlo simulation of corruption behavior spreading with the aim of observing how corruption flows starting from some seed
-      users that were imprisoned or involved in some case."
-    code: "https://github.com/mmeendez8/CorruptionSimulationTwitter"
+  # - title: "Corruption simulation in Social Netowrks (Twitter)"
+  #   description:
+  #     "Analysis using Twitter publics API where we focus in the relations between politicians in the social network. We performed a
+  #     Monte Carlo simulation of corruption behavior spreading with the aim of observing how corruption flows starting from some seed
+  #     users that were imprisoned or involved in some case."
+  #   code: "https://github.com/mmeendez8/CorruptionSimulationTwitter"
 
-  - title: "Flight Safe Android App"
-    description:
-      "Guide and developed android app for collecting AHRS data during flights to facilitate the creation of a dataset for future
-      experiments. This app is used by all pilots and students at that flight from Purdue’s airport."
-    code: "https://github.com/mmeendez8/SafeFlight"
+  # - title: "Flight Safe Android App"
+  #   description:
+  #     "Guide and developed android app for collecting AHRS data during flights to facilitate the creation of a dataset for future
+  #     experiments. This app is used by all pilots and students at that flight from Purdue’s airport."
+  #   code: "https://github.com/mmeendez8/SafeFlight"
