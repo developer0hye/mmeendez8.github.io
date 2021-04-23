@@ -182,6 +182,12 @@ title: Personal Webpage
         <p>{{ project.authors }}</p>
         <p class="description">{{ project.description }}</p>
         <div class="other-projects-buttons">
+          {% if project.news %}
+            News:
+            {% for new in project.news %}
+              <a class="button" href="{{ new }}" target="_blank">{{forloop.index}} </a>
+            {% endfor %}
+          {% endif %}
           {% if project.code %}
           <a class="button" href="{{ project.code }}" target="_blank">Code</a>
           {% endif %}
